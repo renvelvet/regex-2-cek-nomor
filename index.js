@@ -10,6 +10,6 @@ buttonCekNomor.addEventListener("click", () => {
   if (cekNomorHP(cekNomor)) {
     alert(`${cekNomor} Successfully Added!`);
   } else {
-    alert("Kurang digitnya atau bisa jadi bukan digit(?)");
+    alert("Please, masukkan nomor 10-12 digit!");
   }
 });
