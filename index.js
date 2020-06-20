@@ -8,8 +8,8 @@ cekNomorHP = (string) => {
 buttonCekNomor.addEventListener("click", () => {
   const cekNomor = document.getElementById("nomor").value;
   if (cekNomorHP(cekNomor)) {
-    alert(`${cekNomor} Successfully Added!`);
+    alert(`Terima kasih! Nomor yang kamu masukkan, ${cekNomor}, telah sesuai.`);
   } else {
-    alert("Please, masukkan nomor 10-12 digit!");
+    alert("Jumlah digit tidak sesuai, silahkan masukkan nomor 10-12 digit!");
   }
 });
